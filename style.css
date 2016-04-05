@@ -1,0 +1,48 @@
+h1 {
+  text-align: center;
+  font-family: Georgia, serif;
+  font-size:100px;
+}
+
+.header {
+  height: 10em;
+  width: 100%;
+  /*background-image: url("/images/wc_1.png");
+  background-repeat: no-repeat;
+  background-position: left; */
+}
+
+.nav ul {
+  list-style: none;
+  background-color: #444;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.nav li {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.7em;
+  line-height: 40px;
+  height: 40px;
+  border-bottom: 1px solid #888;
+  display: inline-block;
+  width: 120px;
+  border-bottom: none;
+  height: 75px;
+  line-height: 50px;
+  font-size: 1.4em;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: .3s background-color;
+  height:75px;
+  width:120px;
+  font-size:30px;
+}
+ 
+.nav a:hover {
+  background-color: #005f5f;
+}
