@@ -1,3 +1,4 @@
+/*********GLOBAL*************/
 h1 {
   text-align: center;
   font-family: Georgia, serif;
@@ -14,7 +15,7 @@ h1 {
 
 .nav ul {
   list-style: none;
-  background-color: #444;
+  background-color: #553700;
   text-align: center;
   padding: 0;
   margin: 0;
@@ -26,10 +27,10 @@ h1 {
   height: 40px;
   border-bottom: 1px solid #888;
   display: inline-block;
-  width: 120px;
+  width: 200px;
   border-bottom: none;
   height: 75px;
-  line-height: 50px;
+  line-height: 75px;
   font-size: 1.4em;
 }
 
@@ -39,10 +40,108 @@ h1 {
   display: block;
   transition: .3s background-color;
   height:75px;
-  width:120px;
-  font-size:30px;
+  width:200px;
+  font-size:50px;
 }
  
 .nav a:hover {
-  background-color: #005f5f;
+  background-color: #FFE1AA;
+}
+
+/*********BlOG*************/
+
+.leftnav ul {
+  list-style: none;
+  background-color: #D4AF6A;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.leftnav li {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.7em;
+  line-height: 40px;
+  height: 100px;
+  width: 400px;
+  border-bottom: none;
+  line-height: 50px;
+  font-size: 1.4em;
+}
+
+.leftnav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: .3s background-color;
+  height:75px;
+  width:200px;
+  font-size:50px;
+}
+
+.leftnav li:hover {
+  background-color: #FFE1AA;
+}
+
+.leftnav {
+  background-color:green;
+  width:400px;
+  float:left;
+  margin-left:100px;
+  margin-top:50px;
+}
+
+.content h2 {
+  font-size:60px;
+  padding-left:20px;
+  font-family: 'Oswald', sans-serif;
+  background-color: #D4AD6A;
+}
+.content p {
+  font-size:40px;
+  padding-left:40px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.content {
+  background-color:#805815;
+  margin-left:550px;
+  margin-right:200px;
+  margin-top:50px;
+  border-radius:10px;
+}
+
+/*********ABOUT*************/
+
+#carlos {
+  border-radius:20%;
+}
+
+.image {
+  padding:20px;
+  float:left;
+  margin-top:-50px;
+}
+
+.text {
+  margin-left:800px;
+  margin-right:200px;
+  background-color: #D4AF6A;
+  border-radius:10px;
+  padding-bottom:50px;
+}
+.aboutcontent h2 {
+  font-size:60px;
+  padding-left:20px;
+  margin-top:75px;
+}
+.aboutcontent p {
+  font-size:40px;
+  padding-left:20px;
+}
+
+/*********GALLERY*************/
+
+.images {
+  align-items:center;
 }
