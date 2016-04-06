@@ -2,7 +2,9 @@
 
 <html>
   <head>
-    <title>TheFuentesProject</title>
+    <title>The Fuentes Project - Gallery</title>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="app.js"></script>    
     <link type="text/css" rel="stylesheet" href="style.css"/>
   </head>
   <body>
@@ -18,11 +20,21 @@
         <li id="gallery"><a href="gallery.html">Gallery</a></li>
       </ul>
     </div>
-    <div class="images">
-      <img src="/images/wc_1.png"/>
-      <img src="/images/wc_2.png"/>
-      <img src="/images/wc_3.png">
-      <img src="/images/wc_4.png">
+    <div class="gallery">
+    <div class="thumbnails">
+	    <img onmouseover="preview.src=wc_1.src" name="wc_1" src="/images/wc_1.png" alt="" />
+	    <img onmouseover="preview.src=wc_2.src" name="wc_2" src="/images/wc_2.png" alt="" />
+	    <img onmouseover="preview.src=wc_3.src" name="wc_3" src="/images/wc_3.png" alt="" />
+	    <img onmouseover="preview.src=wc_4.src" name="wc_4" src="/images/wc_4.png" alt="" />
+    </div>
+    <div class="preview">
+	    <img name="preview" src="/images/wc_1.png" alt=""/>
+    </div>
+    </div>
+    <div class="footer">
+      <h3>
+        Design by Eric Gift, 2016
+      </h3>
     </div>
   </body>
   

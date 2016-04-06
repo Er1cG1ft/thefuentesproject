@@ -2,7 +2,9 @@
 
 <html>
   <head>
-    <title>TheFuentesProject</title>
+    <title>The Fuentes Project - Blog</title>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="app.js"></script>
     <link type="text/css" rel="stylesheet" href="style.css"/>
   </head>
   <body>
@@ -20,15 +22,56 @@
     </div>
     <div class="article">
       <div class="leftnav">
+        <h3>
+          Posts
+        </h3>
         <ul>
-          <li a href="#">It starts with the movement</li>
-          <li a href="#">Then come the design ideas</li>
+          <li> <a><div class="thencome" style="cursor: pointer;">Then come the design ideas</div></a></li>
+          <li> <a><div class="itstarts" style="cursor: pointer;">It starts with the movement</div></a></li>
         </ul>
       </div>
-    <div class="content">
+    <div class="content" id="thencomes">
+      <h2>
+        Then come the design ideas
+      </h2>
+      <h3>
+        April 5, 2016
+      </h3>
+      <div class="top" style="cursor: pointer;">[Top]</div>
+      <p>
+        I was inspired by many watches from the 20th century, most notably those with some of the following characteristics: <br>
+        <br>
+        It goes like this:<br>
+        <br>
+         - Step cases <br>
+         - &#34Oversized&#34 cases, which are now modestly sized, on the order of 38mm <br>
+         - Steel cases <br>
+         - Exhibition casebacks <br>
+         - Proportionally large crowns <br>
+         - Screw down crowns <br>
+         - Visually &#34clean&#34 dials <br>
+         - Oversized or undersized lugs; lugs that stand out <br>
+         - Lug holes <br>
+        <br>
+        Among others. <br>
+        <br>
+        With these ideas in mind, I set forth with a design in SOLIDWORKS. I wish I could tell you I sat down and carefully sketched these out as I worked. Instead, I started with the movement model, and added a dial placeholder. From there, I created a lip for the dial to sit on. From there, I created the front of the watch, with an insert for a gasket and pressed crystal. <br>
+        <br>
+        I extended this front backwards, towards the rear of the movement, and there added the caseback. I was left with a neat little cylinder containing a watch movement. <br>
+        <br>
+        After some thought on lug proportions, lug width, and aesthetic choices later, I added the lugs. These were a little difficult to model in SOLIDWORKS, but just required some creative thinking in terms of which cuts and extrusions were made first. <br>
+        <br>
+        The photos below show what I came up with. I will probably play with this some more, and then move on to the dial. <br>
+      </p>
+    </div>
+    <div class="content" id="itstarts">
       <h2>
         It starts with the movement
       </h2>
+      <h3>
+        April 5, 2016
+      </h3>
+      <div class="top" style="cursor: pointer;">[Top]</div>
       <p>
         I&#39m trying to create the watch I have always wished existed. <br>
         <br>
@@ -43,14 +86,30 @@
          - Accessible (less than USD1000) pricing <br>
         <br>
         Believe it or not, no one has made that yet. So I decided to do it myself. <br>
-
+        <br>
         I started with movement selection. The movement refers to the internals of the watch. Most watch purists enjoy mechanical movements, in which all timekeeping is provided by the interactions of springs and gears. I am no different: for my watch, I selected the venerable Miyota 9015, an upper middle tier movement with accessible pricing. <br>
-
-        In order to design a case around the watch, I first had to model the movement in 3D. I downloaded the technical drawing for the 9015 from Miyota’s website (visit here if interested) and got to the task in SOLIDWORKS. <br>
-
+        <br>
+        In order to design a case around the watch, I first had to model the movement in 3D. I downloaded the technical drawing for the 9015 from Miyota&#39s website (visit here if interested) and got to the task in SOLIDWORKS. <br>
+        <br>
         The model below is what resulted. No frills, no gears shown, just the frame around which I will build my watch: The Fuentes Watch. <br>
       </p>
-    </div>     
+    </div>
+    </div>
+    <div class="social">
+      <h2>
+        Share this:
+      </h2>
+      <div class="socialbutton" id="twitter">
+        <a href="www.twitter.com">Twitter</a>
+      </div>
+      <div class="socialbutton" id="facebook">
+        <a href="www.facebook.com">Facebook</a>
+      </div>
+    </div>
+    <div class="footer">
+      <h3>
+        Design by Eric Gift, 2016
+      </h3>
     </div>
   </body>
 </html>
