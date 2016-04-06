@@ -188,12 +188,17 @@ h1 {
 
 #carlos {
   border-radius:20%;
+  height:500px;
+  width:570px;
 }
 
 .image {
   padding:20px;
   float:left;
   margin-top:-50px;
+  height:100px;
+  width:100px;
+  margin-left:50px;
 }
 
 .text {
